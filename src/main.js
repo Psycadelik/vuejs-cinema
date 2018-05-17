@@ -36,7 +36,7 @@ new Vue({
                     </div>`,
             methods:{
               checkFilter(){
-                  console.log('checkFilter');
+                  this.$emit('check-filter');
               }
             },
             components:{
